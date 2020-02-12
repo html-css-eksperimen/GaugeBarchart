@@ -16,7 +16,7 @@ npm run dev
 
 ## Contoh Kode Penggunaan
 
-Silahkan cek file index.html dan file ChartMeteran.js . Di dalam file tersebut terdapat kelas yang bisa di salin dan diutak atik untuk penyesuaian penggunaan. Kemudian lihat juga file app.css dan app.js untuk referensi penggunaan tampilan CSS dan mengubah data di dalam data chart gauge ini. Jika ingin dipakai, silahkan kustomisasi lebih lanjut template chart gauge di file index.html dan sesuaikan CSS-nya agar pas dengan ukuran yang diinginkan.
+Silahkan cek file index.html dan file ChartMeteran.js . Di dalam file tersebut terdapat kelas yang bisa di salin dan diutak atik untuk penyesuaian penggunaan. Kemudian lihat juga file app.css dan app.js untuk referensi penggunaan tampilan CSS dan mengubah data di dalam data chart gauge ini. Jika ingin dipakai, silahkan kustomisasi lebih lanjut template chart gauge di file index.html dan sesuaikan CSS-nya agar sesuai dengan kebutuhan.
 
 ![Gambar Demo 1](https://raw.githubusercontent.com/html-css-eksperimen/GaugeBarchart/master/codegaugedemo1.png)
 
