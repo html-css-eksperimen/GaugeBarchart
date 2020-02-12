@@ -1,11 +1,13 @@
-export default class CSSGaugeHelper {
-    constructor(elementId, gaugeElement, progressElement) {
-        this.elementId = elementId;
-        this.gaugeElement = gaugeElement;
-        this.progressElement = progressElement;
-    }
+import ChartMeteran from './ChartMeteran';
 
-    kalkulasiRadiusLingkuran() {}
+const chartMeterSatu = new ChartMeteran('gauge_chart', 'ffa41b', 100, 200);
 
-    setFillRadiusLingkaran() {}
-}
+setTimeout(() => {
+    chartMeterSatu.setNilaiGaugeProgress(150);
+}, 3000);
+
+const chartMeterDua = new ChartMeteran('gauge_chart_dua', 'ff5151', 30, 100);
+
+setTimeout(() => {
+    chartMeterDua.setNilaiGaugeProgress(60);
+}, 3000);

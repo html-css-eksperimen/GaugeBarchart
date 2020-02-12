@@ -8,7 +8,7 @@ body {
     font-family: inherit;
 }
 
-.gauge {
+.content {
     position: relative;
     display: inline-block;
 }
@@ -18,7 +18,7 @@ body {
     width: 200px;
 }
 
-.indikator {
+.teks_indikator {
     position: absolute;
     top: 0;
     left: 0;

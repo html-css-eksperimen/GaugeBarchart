@@ -9,20 +9,43 @@
 </head>
 
 <body>
-    <div id="gauge_chart">
-        <div class="gauge">
-            <div class="indikator">
-                <p>80</p>
+
+    <div class="containers">
+
+        <!-- Contoh Chart Pertama -->
+        <div id="gauge_chart" class="content">
+            <div class="gauge">
+                <div class="teks_indikator">
+                    <p>0</p>
+                </div>
+
+                <svg class="gaugeknob">
+                    <circle class="latargauge" r="50" cx="100" cy="100" fill="transparent" stroke="#eaeaea"
+                        stroke-width="15" stroke-dasharray="400"></circle>
+
+                    <circle class="progressgauge" r="50" cx="100" cy="100" fill="transparent" stroke="#f6416c"
+                        stroke-width="15" transform="rotate(-90 100 100)" stroke-dasharray="352" stroke-dashoffset="100"
+                        stroke-linecap="round"></circle>
+                </svg>
             </div>
+        </div>
 
-            <svg class="gaugeknob">
-                <circle class="latargauge" r="50" cx="100" cy="100" fill="transparent" stroke="#eaeaea"
-                    stroke-width="15" stroke-dasharray="400"></circle>
+        <!-- Contoh Chart Kedua -->
+        <div id="gauge_chart_dua" class="content">
+            <div class="gauge">
+                <div class="teks_indikator">
+                    <p>0</p>
+                </div>
 
-                <circle class="progressgauge" r="50" cx="100" cy="100" fill="transparent" stroke="#f6416c"
-                    stroke-width="15" transform="rotate(-90 100 100)" stroke-dasharray="352" stroke-dashoffset="100"
-                    stroke-linecap="round"></circle>
-            </svg>
+                <svg class="gaugeknob">
+                    <circle class="latargauge" r="50" cx="100" cy="100" fill="transparent" stroke="#eaeaea"
+                        stroke-width="15" stroke-dasharray="400"></circle>
+
+                    <circle class="progressgauge" r="50" cx="100" cy="100" fill="transparent" stroke="#f6416c"
+                        stroke-width="15" transform="rotate(-90 100 100)" stroke-dasharray="352" stroke-dashoffset="100"
+                        stroke-linecap="round"></circle>
+                </svg>
+            </div>
         </div>
     </div>
 
