@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Gauge Chart</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="gauge_chart">
+        <div class="gauge">
+            <div class="indikator">
+                <p>80</p>
+            </div>
+
+            <svg class="gaugeknob">
+                <circle class="latargauge" r="50" cx="100" cy="100" fill="transparent" stroke="#eaeaea"
+                    stroke-width="15" stroke-dasharray="400"></circle>
+
+                <circle class="progressgauge" r="50" cx="100" cy="100" fill="transparent" stroke="#f6416c"
+                    stroke-width="15" transform="rotate(-90 100 100)" stroke-dasharray="352" stroke-dashoffset="100"
+                    stroke-linecap="round"></circle>
+            </svg>
+        </div>
+    </div>
+
+</body>
+<script src="app.js" defer></script>
+
+</html>

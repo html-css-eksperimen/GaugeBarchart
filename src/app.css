@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+* {
+    font-family: inherit;
+}
+
+.gauge {
+    position: relative;
+    display: inline-block;
+}
+
+.gaugeknob {
+    height: 200px;
+    width: 200px;
+}
+
+.indikator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.gauge p {
+    display: block;
+    border: none;
+    width: 60px;
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    color: #979797;
+}
