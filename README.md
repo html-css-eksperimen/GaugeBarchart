@@ -1,6 +1,6 @@
 # Contoh Gauge Chart dengan SVG Element
 
-Latihan membuat grafik atau chart atau progress yang berbentuk meteran atau gauge. Warna dan isi meteran progress bisa diubah-ubah sesuai keinginan. Contoh gauge chart ini dibuat dengan JavaScript ES2015 dan CSS murni, dan tidak membutuhkan library tambahan (misal tidak butuh jquery) untuk memakainya.
+Latihan membuat grafik atau chart atau progress yang berbentuk meteran atau gauge. Warna dan isi meteran progress bisa diubah-ubah sesuai keinginan. Contoh gauge chart ini dibuat dengan JavaScript ES2015 dan CSS murni, dan tidak membutuhkan library tambahan (misalnya tidak butuh jquery) untuk memakainya.
 
 Penggunaannya cukup dengan import class ChartMeteran ke dalam komponen yang membutuhkan, inisialisasi dengan menambahkan id css containernya, warna chart gauge, nilai progress awal, dan nilai total progress satu lingkaran keseluruhan.
 
