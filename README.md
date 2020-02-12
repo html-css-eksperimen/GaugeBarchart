@@ -4,6 +4,10 @@ Latihan membuat grafik atau chart atau progress yang berbentuk meteran atau gaug
 
 Penggunaannya cukup dengan import class ChartMeteran ke dalam komponen yang membutuhkan, inisialisasi dengan menambahkan id css containernya, warna chart gauge, nilai progress awal, dan nilai total progress satu lingkaran keseluruhan.
 
+## Demo aplikasi
+
+Tautan untuk melihat demo sederhana dari penggunaan gauge chart ini yaitu [Demo Gauge Chart](https://html-css-eksperimen.github.io/demo-gaugechart/)
+
 ## Cara Menjalankan Demo
 
 Gunakan NPM untuk memasang dependency http server untuk menjalankan demo sederhana ini.
